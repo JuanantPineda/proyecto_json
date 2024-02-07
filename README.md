@@ -22,5 +22,7 @@ Muestrame los episodios con una puntuación mayor o igual a una pedida por el us
 
 Calculame todas las notas que tiene los episodios y hazme la media de toda la serie
 
-![Texto alternativo](https://m.media-amazon.com/images/S/pv-target-images/b4df5b27cfa1fdb08f3bac3f40fd4bde199c78fd3c23e0e7c60be60c5ed3528d._BR-6_AC_SX720_FMwebp_.jpg)
+<p align="center">
+  <img src="https://m.media-amazon.com/images/S/pv-target-images/b4df5b27cfa1fdb08f3bac3f40fd4bde199c78fd3c23e0e7c60be60c5ed3528d._BR-6_AC_SX720_FMwebp_.jpg" alt="Texto alternativo">
+</p>
 
