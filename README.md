@@ -22,4 +22,5 @@ Muestrame los episodios con una puntuación mayor o igual a una pedida por el us
 
 Calculame todas las notas que tiene los episodios y hazme la media de toda la serie
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elconfidencial.com%2Ftelevision%2Fseries-tv%2F2016-12-21%2Fno-te-dejes-enganar-westworld-no-es-serie-mas-vista-historia-hbo_1307458%2F&psig=AOvVaw1DPd5XhMZOsVBloO1Rd3o0&ust=1707395366768000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC3ucOdmYQDFQAAAAAdAAAAABAE){width='100px'}
+![Texto alternativo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elconfidencial.com%2Ftelevision%2Fseries-tv%2F2016-12-21%2Fno-te-dejes-enganar-westworld-no-es-serie-mas-vista-historia-hbo_1307458%2F&psig=AOvVaw1DPd5XhMZOsVBloO1Rd3o0&ust=1707395366768000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC3ucOdmYQDFQAAAAAdAAAAABAE)
+
