@@ -1,7 +1,6 @@
 # Proyecto JSON
 
-## Crea un enunciado, donde indiques la información que vas a extraer.
-## Tienes que hacer cinco funciones en cada ejercicio para extraer información:
+## Crea un enunciado, donde indiques la información que vas a extraer. Tienes que hacer cinco funciones en cada ejercicio para extraer información:
 
 **Listar información:**
 
