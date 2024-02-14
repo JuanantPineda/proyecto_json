@@ -12,11 +12,11 @@ Cuéntame el número de episodios que tiene la serie
 
 **-Buscar o filtrar información:**
 
-Mostrar por pantalla la puntuación de un episodio para ello pedir por pantalla el nombre del episodio 
+Mostrar por pantalla la puntuación de un episodio para ello pedir por pantalla el nombre del episodio
 
 **-Buscar información relacionada:**
 
-Muestrame los episodios con una puntuación mayor o igual a una pedida por el usuario 
+Muestrame los episodios con una puntuación mayor o igual a una pedida por el usuario y que me lo muestre por temporadas
 
 **-Ejercicio libre:**
 
