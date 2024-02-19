@@ -1,10 +1,10 @@
 import json
-with open("ProyectoJSON/estructura.json") as fichero:
+with open("estructura.json") as fichero:
     datos=json.load(fichero)
 
 #Mostar el menu:
 def mostrarMenu():
-    menu = ''''Bien venido al menu
+    menu = '''Bien venido al menu
     1. Listar el numero de temporadas que tiene la serie
     2. Contar el numero de episodios que tiene la serie
     3. Mostar la puntuacion de un episodio
@@ -17,7 +17,7 @@ def mostrarMenu():
     while True:
         try:
             numero = int(input("Ingresame una opcion: "))
-            while numero >7:
+            while numero > 7 or numero <= 0:
                 print("Debes ingresar un valor que este disponible")
                 numero = int(input("Ingresame una opcion: "))
             break
@@ -47,7 +47,7 @@ def numeroEpisodiosTotal():
     for var in datos["_embedded"]["episodes"]:
         cont += 1
     
-    print("Tiene",cont,"episdios")
+    print("Tiene",cont,"episodios")
 
 #Mostrar por pantalla la puntuación de un episodio para ello pedir por pantalla el nombre del episodio 
 
