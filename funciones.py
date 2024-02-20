@@ -64,7 +64,7 @@ def puntuacionEpisodio():
     if bandera == False:
         print("El episodio introducido no existe")
 
-#Muestrame los episodios con una puntuación mayor o igual a una pedida por el usuario y que me lo muestre por temporadas
+#Muestrame los episodios con un intervalo introducido por el usuario
 
 def mayorPuntuacion():
 
@@ -118,7 +118,7 @@ def mayorPuntuacion():
                 print("{:<30}".format(""), end="")
         print()
 
-#Calculame todas las notas que tiene los episodios y hazme la media de toda la serie
+#Calculame la media de la puntuacion de la serie, el minimo y el maximo
 
 def calculoPuntuacion():
     puntacion = []
