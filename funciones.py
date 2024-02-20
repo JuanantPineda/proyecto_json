@@ -70,11 +70,31 @@ def mayorPuntuacion():
 
     while True:
         try:
-            puntuacion= float(input("Ingresame la puntuacion: "))
+            puntuacion= float(input("Ingresame el primer intervalo de la puntuacion tiene que ser menor que la siguiente: "))
+            break
+        except ValueError:
+            print ("Debes introducir un número")
+    while True:
+        try:
+            puntuacion2= float(input("Ingresame el segundo intervalo de la puntuacion: "))
             break
         except ValueError:
             print ("Debes introducir un número")
 
+    while puntuacion > puntuacion2:
+        print("La puntuacion introducida no sirve ingrese una acorde")
+        while True:
+            try:
+                puntuacion= float(input("Ingresame el primer intervalo de la puntuacion tiene que ser menor que la siguiente: "))
+                break
+            except ValueError:
+                print ("Debes introducir un número")
+        while True:
+            try:
+                puntuacion2= float(input("Ingresame el segundo intervalo de la puntuacion: "))
+                break
+            except ValueError:
+                print ("Debes introducir un número")
 
     temporadas = {"1": [], "2": [], "3": [], "4": []}
 
@@ -82,7 +102,7 @@ def mayorPuntuacion():
     print()
 
     for var in datos["_embedded"]["episodes"]:
-        if var["rating"]["average"] >= puntuacion:
+        if puntuacion < var["rating"]["average"] and puntuacion2 > var["rating"]["average"]:
             temporada = var["season"]
             temporadas[str(temporada)].append(var["name"])
     
@@ -108,3 +128,5 @@ def calculoPuntuacion():
         cont +=1
     
     print("La media de puntuacion que tiene la serie es de:", round(sum(puntacion)/cont,2))
+    print("La mayor puntuacion de un episodio es de:", max(puntacion))
+    print("La menor puntuacion de un episodio es de:", min(puntacion))
